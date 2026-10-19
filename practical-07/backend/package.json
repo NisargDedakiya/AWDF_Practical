@@ -1,0 +1,31 @@
+{
+  "name": "practical-07-backend",
+  "version": "1.0.0",
+  "description": "Practical 7: Authentication and Middleware Pipeline (Nisarg Dedakiya - 24CS014)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test-api.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "jwt",
+    "bcryptjs",
+    "authentication",
+    "middleware"
+  ],
+  "author": "Nisarg Dedakiya (24CS014)",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5"
+  }
+}
