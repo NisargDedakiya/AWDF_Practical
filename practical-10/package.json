@@ -1,0 +1,30 @@
+{
+  "name": "practical-10",
+  "version": "1.0.0",
+  "description": "Practical 10: Asynchronous Processing with Event-Driven Architecture (Nisarg Dedakiya - 24CS014)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test-events.js",
+    "build": "echo Practical 10 is a Node.js event-driven backend service (no build step required)."
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "eventemitter",
+    "event-driven-architecture",
+    "asynchronous-processing",
+    "non-blocking-io"
+  ],
+  "author": "Nisarg Dedakiya (24CS014)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
