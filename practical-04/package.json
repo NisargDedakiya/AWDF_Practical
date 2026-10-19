@@ -1,0 +1,26 @@
+{
+  "name": "practical-04",
+  "version": "1.0.0",
+  "description": "Task Management REST API with Node.js and Express - Practical 4 (Nisarg Dedakiya - 24CS014)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test-api.js"
+  },
+  "keywords": [
+    "express",
+    "rest-api",
+    "crud",
+    "middleware",
+    "awdf",
+    "node"
+  ],
+  "author": "Nisarg Dedakiya (24CS014)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
