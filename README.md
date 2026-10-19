@@ -23,7 +23,8 @@
 | [Practical 03](./practical-03/) | **API Integration and Data Rendering in React** | Asynchronous GitHub REST API consumption, `useEffect`, three-state UI (Loading, Error, Success), and client search filter. | React 18, React Router v6, Vite | **Completed** |
 | [Practical 04](./practical-04/) | **Building a RESTful API with Node.js and Express** | Task management REST API with in-memory CRUD operations, middleware pipeline (logging, content-type and ID validation), custom 404, and centralized error handling. | Node.js, Express.js, CORS | **Completed** |
 | [Practical 05](./practical-05/) | **MongoDB Integration and Schema Design with Mongoose** | Full CRUD REST API connected to MongoDB using Mongoose ODM, strict field-level validations, priority enum, pre-save hook, and structured error handling. | Node.js, Express.js, MongoDB, Mongoose | **Completed** |
-| Practical 06 | *Pending instruction* | — | — | *Upcoming* |
+| [Practical 06](./practical-06/) | **Full Stack Integration (React + Node + MongoDB)** | Complete full-stack integration with bidirectional state synchronization, optimistic UI updates with error rollback, live metrics, and real-time toast feedback. | React 18, Vite, Node.js, Express, MongoDB, Mongoose | **Completed** |
+| Practical 07 | *Pending instruction* | — | — | *Upcoming* |
 
 ---
 
