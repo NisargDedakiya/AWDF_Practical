@@ -1,0 +1,32 @@
+{
+  "name": "practical-09",
+  "version": "1.0.0",
+  "description": "Practical 09: In-Memory Caching and Query Optimization (Nisarg Dedakiya - 24CS014)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "benchmark": "node benchmark.js",
+    "test": "node benchmark.js",
+    "build": "echo Practical 09 is a Node.js caching backend API (no build step required)."
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "node-cache",
+    "caching",
+    "query-optimization",
+    "performance"
+  ],
+  "author": "Nisarg Dedakiya (24CS014)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "node-cache": "^5.1.2"
+  }
+}
