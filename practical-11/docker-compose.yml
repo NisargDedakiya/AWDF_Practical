@@ -1,0 +1,55 @@
+services:
+  # 1. MongoDB Database Service
+  mongodb:
+    image: mongo:6-jammy
+    container_name: practical11-mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      # Named volume so task data persists across container restarts
+      - mongo-data:/data/db
+    networks:
+      - app-network
+
+  # 2. Node/Express Backend Service
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: practical11-backend
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      # Uses the Compose internal service name 'mongodb' instead of localhost
+      - MONGO_URI=mongodb://mongodb:27017/awdf_practical11
+    depends_on:
+      - mongodb
+    networks:
+      - app-network
+
+  # 3. React Frontend Service
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: practical11-frontend
+    restart: always
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:5000
+    depends_on:
+      - backend
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mongo-data:
+    driver: local

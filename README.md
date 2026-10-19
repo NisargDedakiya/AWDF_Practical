@@ -28,6 +28,7 @@
 | [Practical 08](./practical-08/) | **Performance Optimization and Lazy Loading in React** | Route-based code splitting using `React.lazy()`, dynamic chunk loading, `<Suspense>` fallback UI, and production bundle analysis. | React 18, React Router v6, Vite | **Completed** |
 | [Practical 09](./practical-09/) | **In-Memory Caching and Query Optimization** | Server-side caching using `node-cache`, write invalidation pipeline, hit/miss metrics tracking, and response time benchmarking. | Node.js, Express, MongoDB, Mongoose, node-cache | **Completed** |
 | [Practical 10](./practical-10/) | **Asynchronous Processing with Event-Driven Architecture** | Non-blocking background event execution using Node.js native `EventEmitter`, decoupled notification pipeline, timestamp verification, and fault-tolerant error listener. | Node.js, Express, MongoDB, Mongoose, EventEmitter, HTML5/CSS3 | **Completed** |
+| [Practical 11](./practical-11/) | **Containerization with Docker and Docker Compose** | Multi-container application orchestration (React frontend, Express REST API, MongoDB) using Docker Compose, internal DNS networking, and persistent named volume storage. | Docker, Docker Compose, React 18, Vite, Express, MongoDB | **Completed** |
 
 
 ---
