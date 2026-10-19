@@ -25,7 +25,7 @@
 | [Practical 05](./practical-05/) | **MongoDB Integration and Schema Design with Mongoose** | Full CRUD REST API connected to MongoDB using Mongoose ODM, strict field-level validations, priority enum, pre-save hook, and structured error handling. | Node.js, Express.js, MongoDB, Mongoose | **Completed** |
 | [Practical 06](./practical-06/) | **Full Stack Integration (React + Node + MongoDB)** | Complete full-stack integration with bidirectional state synchronization, optimistic UI updates with error rollback, live metrics, and real-time toast feedback. | React 18, Vite, Node.js, Express, MongoDB, Mongoose | **Completed** |
 | [Practical 07](./practical-07/) | **Authentication and Middleware Pipeline** | JWT stateless authentication, bcrypt password hashing, input validation pipeline, user-scoped task access, and token expiration handling. | Node.js, Express, MongoDB, Mongoose, JWT, bcryptjs, React | **Completed** |
-| Practical 08 | *Pending instruction* | — | — | *Upcoming* |
+| [Practical 08](./practical-08/) | **Performance Optimization and Lazy Loading in React** | Route-based code splitting using `React.lazy()`, dynamic chunk loading, `<Suspense>` fallback UI, and production bundle analysis. | React 18, React Router v6, Vite | **Completed** |
 
 ---
 
