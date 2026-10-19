@@ -20,7 +20,8 @@
 | :---: | :--- | :--- | :--- | :---: |
 | [Practical 01](./practical-01/) | **Introduction to React and Component Architecture** | Static student portfolio UI using independently structured components and props. | React 18, Vite, JavaScript, CSS3 | **Completed** |
 | [Practical 02](./practical-02/) | **State Management and Routing in React** | Reactive state with `useState` (controlled inputs, live preview, dark mode) and client-side routing via `react-router-dom`. | React 18, React Router v6, Vite | **Completed** |
-| Practical 03 | *Pending instruction* | — | — | *Upcoming* |
+| [Practical 03](./practical-03/) | **API Integration and Data Rendering in React** | Asynchronous GitHub REST API consumption, `useEffect`, three-state UI (Loading, Error, Success), and client search filter. | React 18, React Router v6, Vite | **Completed** |
+| Practical 04 | *Pending instruction* | — | — | *Upcoming* |
 
 ---
 
