@@ -30,6 +30,8 @@
 | [Practical 10](./practical-10/) | **Asynchronous Processing with Event-Driven Architecture** | Non-blocking background event execution using Node.js native `EventEmitter`, decoupled notification pipeline, timestamp verification, and fault-tolerant error listener. | Node.js, Express, MongoDB, Mongoose, EventEmitter, HTML5/CSS3 | **Completed** |
 | [Practical 11](./practical-11/) | **Containerization with Docker and Docker Compose** | Multi-container application orchestration (React frontend, Express REST API, MongoDB) using Docker Compose, internal DNS networking, and persistent named volume storage. | Docker, Docker Compose, React 18, Vite, Express, MongoDB | **Completed** |
 | [Practical 12](./practical-12/) | **CI/CD Pipeline with GitHub Actions** | Continuous integration pipeline with automated unit and integration testing via Node.js test runner and Supertest, dependency caching, and automated build verification. | GitHub Actions, Node.js, Express, Supertest, Mongoose | **Completed** |
+| [Practical 13](./practical-13/) | **AI API Integration into a Web Application** | Secure backend proxy integration for Google Gemini and OpenAI, graceful degradation contextual fallback engine, and per-client rate limiting. | React 18, Vite, Node.js, Express, Gemini API, OpenAI SDK, MongoDB | **Completed** |
+
 
 
 ---
