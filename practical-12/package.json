@@ -1,0 +1,33 @@
+{
+  "name": "practical-12",
+  "version": "1.0.0",
+  "description": "Practical 12: CI/CD Pipeline with GitHub Actions (Nisarg Dedakiya - 24CS014)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/api.test.js",
+    "build": "echo Practical 12 is a Node.js API with automated CI tests (no build step required)."
+  },
+  "keywords": [
+    "github-actions",
+    "ci-cd",
+    "continuous-integration",
+    "automated-testing",
+    "express",
+    "supertest",
+    "node-test"
+  ],
+  "author": "Nisarg Dedakiya (24CS014)",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
